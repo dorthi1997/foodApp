@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
 @import url('https://fonts.googleapis.com/css?family=Cabin');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
 body
 {
   margin: 0px;
@@ -40,6 +42,7 @@ background: url("img/holiday2013_front.jpg");
     margin-left: 535px;
     letter-spacing: 6px;
 }
+
 .star
 {
         margin-left: 726px;
@@ -456,87 +459,7 @@ font-family: 'Cabin';
     margin-top: 20px;
     font-weight: normal;
 }
-.restaurant {
-    background-color: white;
-    position: relative;
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2rem;
-    padding: 2rem;
-    border-radius: 4px;
-}
 
-.rest-wrapper {
-    display: flex;
-    font-family: sans-serif;
-}
-
-.rest-wrapper .image {
-    margin-right: 1rem;
-}
-
-.rest-wrapper .image img {
-    border-radius: 4px;
-}
-
-.rest-wrapper .rest-name {
-    font-size: 24px;
-    color: #cb202d;
-}
-
-.rest-wrapper .rest-category {
-    color: #89959B;
-    text-transform: uppercase;
-}
-
-.rest-wrapper .rest-address {
-    color: #89959B;
-}
-
-.rest-extra {
-    display: flex;
-    margin-top: 1rem;
-    border-top: 1px solid #e7e7e7;
-    padding: 1rem;
-}
-
-.rest-extra .type {
-    text-transform: uppercase;
-     color: #89959B;
-     flex: none;
-     margin-right: 2rem;
-}
-
-.restaurant .rating {
-    color: white;
-    background-color: #5BA829;
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    padding: 0.5rem 1rem;
-    font-size: 18px;
-    border-radius: 4px;
-    letter-spacing: 2px;
-}
-
-
-.search-bar {
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2rem;
-}
-
-.search-bar form {
-    display: flex;
-    align-items: center;
-}
-
-.search-bar form .input-wrapper {
-   flex: 1;
-   margin-right: 1rem;
-}
 .f1
 {
     
@@ -758,4 +681,151 @@ font-style: normal;
 {
     margin-left: 329px;
     margin-top: -240px;
+}
+.mn
+{
+background-image: url(img/bg-shop.jpg);
+    background-size: cover;
+    color: white;
+    height: 363px;
+    background-attachment: fixed;
+    height: 507px;
+}
+.mn:before
+{
+    height: 100%;
+    width: 100%;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(27, 26, 26, 0.75);
+    margin-top: -153px;
+}
+.gol
+{
+position: absolute;
+    width: 143px;
+    margin-top: 441px;
+    margin-left: 614px;
+}
+.perm
+{
+        font-family: "Herr Von Muellerhoff";
+    position: absolute;
+    margin-top: 211px;
+    margin-left: 146px;
+    font-size: 84px;
+}
+.restaurant {
+    background-color: white;
+    
+    width: 263px;
+    height: 440px;
+     box-shadow: 2px 0px 2px 0px;
+    margin-left: 105px;
+    border-radius: 4px;
+    margin-top: 48px;
+}
+.rest-info
+{
+       margin-top: 327px;
+    width: 256px;
+    margin-left: 53px;
+}
+.rest-wrapper {
+    display: flex;
+    font-family: sans-serif;
+}
+
+.rest-wrapper .image {
+   position: absolute;
+    height: 291px;
+    width: 264px;
+}
+
+.rest-wrapper .image img {
+       box-shadow: 0px 0px 2px 2px;
+    height: 306px;
+    width: 263px;
+}
+
+.rest-wrapper .rest-name {
+        font-size: 43px;
+    font-family: 'Kaushan Script', cursive;
+    margin-left: -15px;
+}
+
+.rest-wrapper .rest-category {
+    color: #89959B;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-left: 12px;
+
+    
+}
+
+.rest-wrapper .rest-address {
+    color: #89959B;
+}
+
+.rest-extra {
+    display: flex;
+    margin-top: 1rem;
+    border-top: 1px solid #e7e7e7;
+    padding: 1rem;
+}
+.value
+{
+     font-family: 'Kaushan Script', cursive;
+    color: #bc8d46;
+        font-weight: bold;
+    margin-left: 26px;
+    font-size: 26px;
+    margin-top: -8px;
+    
+}
+.rest-extra .type {
+    text-transform: uppercase;
+     color: #89959B;
+     flex: none;
+     margin-right: 2rem;
+}
+
+.restaurant .rating {
+    color: white;
+    background-color: #5BA829;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 18px;
+    border-radius: 4px;
+    letter-spacing: 2px;
+}
+
+
+.search-bar {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+
+.search-bar form {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar form .input-wrapper {
+   flex: 1;
+   margin-right: 1rem;
+}
+.every
+{
+      position: absolute;
+    margin-top: 3px;
+    background: #F9F9F9;
+    height: 4000px;
+    width: 100%;
 }
