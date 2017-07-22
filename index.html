@@ -1,0 +1,199 @@
+<html lang="en" ng-app='foodieApp'>
+<head>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="angular.min.js"></script>
+	<script src="jquery.js"></script>
+    </head>
+   
+    <body>
+        <div class="front">
+
+    <div class="welcome_screen">
+        
+  <nav class="shift">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Reservations</a></li>
+      <li><a href="#">order online</a></li>
+      <li><a href="#">Shop</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav><div class="mainn">
+        <h1 id="welcome">Welcome</h1>
+        <h2 id="names">THE PRESIDENT</h2>
+        <div class="pixcode  pixcode--separator  separator separator--line-flower separator_color--light" style="width: 285px;">
+<div class="lineleft"></div>
+<div class="lineright"></div>
+<div class="star">✻</div>
+</div>
+        <h2 id="quote">ENJOY IT ALL</h2>
+        <input type="submitt" class="loginbuttonn" value="SIGN IN" /></div>
+    </div>
+
+
+<div class="signin hidden ">
+        <div id="login_el">
+  <h2>login</h2>
+
+            
+<form name="loginForm">
+    
+    <div class="input form-group">
+    <label for="POST-name" class="entypo-user"></label   >
+    <input type="text" name="name" id="namee" placeholder="USERNAME" ng-model="name" id="POST-name" required="" ng-model="user.name">
+  </div>
+    
+   <div class="form-group input">
+        <label for="user-email"></label>
+        <input type="email" class="form-control" id="user-email" placeholder="E-MAIL" name="email" ng-model="user.email" required="">
+        <div ng-show="loginForm.email.$error.required" class="aaaa">Required!</div>
+        <div ng-show="loginForm.email.$error.email" class="aaaa">This doesn't look like a valid email</div>
+    </div>
+    <div class="form-group input">
+        <label for="user-password"></label>
+    <input type="password" class="form-control" id="user-password" placeholder="PASSWORD" name="password" required="" ng-model="user.password" ng-minlength="6" ng-maxlength="15">
+    <div ng-show="loginForm.password.$error.minlength" class="aaaa">
+    Password must be at least 6 characters long 
+    </div>
+    <div ng-show="loginForm.password.$error.maxlength" class="aaaa">
+    Password must be at most 15 characters long 
+    </div>
+    <div ng-show="loginForm.password.$error.required" class="aaaa">
+    Please enter your super secret password 
+    </div>
+    </div>
+    
+    <input type="submit" value="Sign In" class="btn btn-default" ng-disabled="loginForm.$invalid">
+
+</form>
+            
+            
+</div>
+    <div class="welcome_msg">Welcome Back,&nbsp;&nbsp<br> {{name}}</div>
+<img src="img/0e96ad8aad7c86d1ba15107c357667b7.png" class="chat">
+            <img src="img/white-round-md.png" class="fi">
+            <img src="img/white-round-md.png" class="gi">
+            <img src="img/white-round-md.png" class="yi">
+        
+<img src="img/chef-cook-vector-illustration-31752983%20copy.png" class="chef">
+        </div> 
+            
+        </div>
+        <div class="main cont" ng-controller="mainController">
+            
+            
+            
+           <div class="headerrr"> 
+<div class="logo">
+    <h2 id="na"><a href="#">THE PRESIDENT</a></h2>
+</div>     
+<div class="shi">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Reservations</a></li>
+      <li><a href="#">order online</a></li>
+      <li><a href="#">Blog</a></li>
+       <li><a href="#">Shop</a></li>
+      <li><a href="#">Features</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+</div>
+            </div>
+        
+            
+            
+            
+            
+            
+            <div class="ui container">
+            <div class="hero">
+               <p class="taste">Tasteful</p>
+                <p class="tast">DELIGHT</p>
+              
+<!--
+                <div class="search-bar">
+    <form>
+    <div class="input-wrapper">
+      <input type="text" class="form-control" placeholder="Search...">
+    </div>
+    <button type="submit" class="btn btn-default">Search</button>
+  </form>
+</div>
+--></div>
+                </div>
+            <section class="food">
+                <div class="discover">
+                    <div class="f1"></div>
+                    <div class="f3"></div>
+                    <div class="f2"></div>
+                    <div class="f4"></div>
+</div>
+               
+                    <p class="hea">Discover</p>
+                <h5 class="me">MENU</h5>
+                <p class="mmm">For those with pure food indulgence in mind, come next door and sate your desires with our ever changing internationally and seasonally inspired small plates.  We love food, lots of different food, just like you.</p>
+                <div class="st">✻</div>
+                </section>
+            <section class="last">
+            
+            <p class="per">The Perfect</p>
+                <p class="perb">BLEND</p>
+            
+            </section>
+            
+               <section class="food2">
+                <div class="discover2">
+                    <div class="f5"></div>
+                    <div class="f6"></div>
+                   
+</div>
+               
+                    <p class="hea2">Culinary</p>
+                <h5 class="me2">DELIGHT</h5>
+                <p class="mmm2">We promise an intimate and relaxed dining experience that offers something different to local and foreign patrons and ensures you enjoy a memorable food experience every time.</p>
+                <div class="st2">✻</div>
+                </section>
+<!--
+           <div ng-repeat="restaurant in restaurants" class="restaurant">
+    <div class="rest-wrapper">
+        <div class="image">
+            <img src="{{restaurant.image}}" height="100" width="100">
+        </div>
+        <div class="rest-info">
+            <div class="rest-category">
+               <small>{{restaurant.category}} </small>
+            </div>
+            <div class="rest-name">
+            <strong>{{restaurant.name}}</strong>
+            </div>
+            <div>
+               <strong> {{restaurant.location}}</strong>
+            </div>
+            <div class="rest-address">
+                {{restaurant.address}}
+            </div>
+        </div>
+    </div>
+    <div class="rest-extra">
+        <div class="type">
+            <div><small>Cuisines:</small></div>
+            <div><small>Cost for Two: </small></div>
+            <div><small>Hours:</small></div>
+        </div>
+       <div class="value">
+    <div>{{restaurant.cuisines}}</div>
+    <div>₹{{restaurant.cost | number}}</div>
+    <div>{{restaurant.hours}}</div>
+</div>
+    </div>
+    <div class="rating">
+        <strong>{{restaurant.vote}}</strong>
+    </div>
+-->
+
+        </div>
+        </div>
+
+            <script src="main.js"></script>
+    </body>
+</html>

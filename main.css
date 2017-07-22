@@ -1,0 +1,761 @@
+@import url('https://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+body
+{
+  margin: 0px;
+}
+.welcome_screen
+{
+height: 100%;
+width: 100%;
+padding: 0px;
+background: url("img/holiday2013_front.jpg");
+    outline: 1px dashed #fff;
+    outline-offset: -10px;
+}
+#welcome
+{
+       margin-left: 600px;
+    font-family: "Herr Von Muellerhoff";
+    color: #c59d5f;
+    font-size: 122px;
+    
+    line-height: 178px;
+    position: absolute;
+    margin-top: 194px;
+    font-weight: normal;
+
+}
+#names
+{
+    font-family: "Source Sans Pro";
+    font-weight: 900;
+    font-style: normal;
+    font-size: 47px;
+    line-height: 48px;
+    Color: #ffffff;
+    position: absolute;
+    margin-top: 315px;
+    margin-left: 535px;
+    letter-spacing: 6px;
+}
+.star
+{
+        margin-left: 726px;
+    position: absolute;
+    margin-top: 365px;
+    color: #c59d5f;
+    
+}
+.lineleft
+{
+       border: 1px solid white;
+    position: absolute;
+    margin-top: 375px;
+    width: 174px;
+    margin-left: 539px; 
+}
+.lineright
+{
+        border: 1px solid white;
+    position: absolute;
+    margin-top: 375px;
+    width: 174px;
+    margin-left: 752px;
+}
+#quote
+{
+    font-family: "Source Sans Pro";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 24px;
+    Color: #ffffff;
+    position: absolute;
+        margin-top: 390px;
+    margin-left: 667px;
+    letter-spacing: 4px;
+}
+
+.loginbuttonn{
+        background-color: white;
+    color: grey;
+    font-size: 15px;
+    font-weight: bold;
+    width: 79px;
+    height: 33px;
+    margin-top: 419px;
+    cursor: pointer;
+    margin-left: 693px;
+    border-radius: 9px;
+    border: none;
+    padding: 10px;
+}
+
+.loginbuttonn:hover{
+    transition: 0.5s ease;
+	background-color:#c59d5f;
+    color: black
+}
+.hidden
+{
+    display: none;
+}
+.signin
+{
+    height: 100%;
+    width: 100%;
+   background: url("img/holiday2013_front.jpg"); 
+      outline: 1px dashed #fff;
+    outline-offset: -10px;
+}
+
+#login_el {
+    width: 370px;
+  height: 309px;
+    background: rgba(255,255,255,0.2);
+    margin: auto;
+    padding-top: 70px;
+    border-radius: 5px;
+    border: 1px solid rgba(255,255,255,0.4);
+    box-shadow: 2px 3px 10px rgba(0,0,0,.2);
+    position: absolute;
+    margin-top: 113px;
+      margin-left: 35%;
+}
+
+
+#login_el:after {
+  content:'';
+  display: block;
+  position: absolute;
+  top:24px;
+  left: 0;
+  right: 0;
+  width: 80px;
+  height: 7px;
+  margin: 25px auto 38px auto;
+  background: rgba(0,0,0,.2);
+  border:1px solid rgba(255,255,255,0.4);
+  border-radius:4px;
+}
+
+#login_el:before {
+  content:'';
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top:-248px;
+  width: 54px;
+  height: 300px;
+  background-color: #dfdfdf;
+  background-image: url(data:image/png;base64,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);
+  background-repeat:repeat-y;
+  z-index: 999;
+}
+h2 {
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.15);
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 13px;
+}
+#login_el form {
+  width: 285px;
+  margin: auto;
+}
+.input {
+  width: 100%;
+  height: 38px;
+  line-height: 36px;
+  padding: 0px 9px;
+      margin-bottom: 25px;
+  border-radius:5px;
+  border:1px solid rgba(242,242,242,0.3);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: inset 0px 0px 8px rgba(0,0,0,.2);
+  -moz-box-shadow: inset 0px 0px 8px rgba(0,0,0,.2);
+  box-shadow: inset 0px 0px 8px rgba(0,0,0,.2);
+        margin-bottom: 34px;
+}
+
+.input label {
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  width: 20px;
+}
+
+.input input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  border:none;
+  width: 235px;
+  outline:none;
+  color: #fff;
+  font-size:12px;
+  font-weight: 100;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #fff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #fff;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #fff;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #fff;
+}
+
+input[type="submit"]{
+  display: block;
+  width: 100%;
+  height: 38px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #91c46c;
+  border-radius:5px;
+  border:1px solid #73a84c;
+  outline:none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 14px;
+  -webkit-box-shadow: inset 1px 1px 0px #c8e5b3, 1px 2px 1px rgba(0,0,0,.09);
+  -moz-box-shadow: inset 1px 1px 0px #c8e5b3, 1px 2px 1px rgba(0,0,0,.09);
+  box-shadow:  inset 1px 1px 0px #c8e5b3, 1px 2px 1px rgba(0,0,0,.09);
+}
+.chef
+{
+        height: 259px;
+    float: right;
+    margin-top: 308px;
+    margin-right: 123px;
+}
+.chat
+{
+   height: 174px;
+    position: absolute;
+    margin-left: 939px;
+    margin-top: 116px;
+}
+.fi
+{
+    height: 15px;
+    margin-top: 351px;
+    margin-left: 1056px;
+    position: absolute;
+}
+.gi
+{
+   position: absolute;
+    height: 25px;
+    margin-left: 1022px;
+    margin-top: 326px;
+}
+.yi
+{
+    
+       position: absolute;
+    margin-left: 1003px;
+    height: 35px;
+    margin-top: 286px;
+    
+}
+
+nav {
+    position: absolute;
+    padding-top: 8px;
+    margin-left: 644px;
+}
+
+nav ul li {
+  display: inline-block;
+font-family: 'Cabin';
+    
+}
+nav ul li a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+  text-transform: uppercase;
+ position:relative;
+  z-index: 1;
+    margin: 0 10px;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+nav ul li a:hover {
+  
+    color: black;
+}
+nav.shift ul li a:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 1px;
+  content: '.';
+  color: transparent;
+  background:  #c59d5f;
+  visibility: none;
+  opacity: 0;
+  z-index: -1;
+}
+nav.shift ul li a:hover:after {
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
+}
+.welcome_msg
+{
+    position: absolute;
+    margin-left: 986px;
+    height: 93px;
+    margin-top: 151px;
+    z-index: 400;
+    width: 188px;
+    font-family: "Herr Von Muellerhoff";
+    font-size: 35px;
+    font-weight: 600;
+}
+.mainn
+{
+        margin-left: -84px;
+}
+input.ng-invalid.ng-dirty
+{
+            border: 1px solid red;
+        }
+.aaaa
+{
+color: white;
+}
+
+.hero {
+     background-image: url(img/three-col-1.jpg);
+    background-size: 100% 100%;
+    color: white;
+    background-position-y: -82px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 79px;
+    height: 363px;
+    background-attachment: fixed;
+}
+
+.ui
+{
+        position: absolute;
+    height: 406px;
+    width: 100%;
+}
+.shi {
+       position: absolute;
+    margin-left: 413px;
+}
+
+.shi ul li {
+  display: inline-block;
+font-family: 'Cabin';
+    
+}
+.shi ul li a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+ position:relative;
+  z-index: 1;
+    margin: 0 10px;
+}
+.shi  ul li a,
+.shi  ul li a:after,
+.shi  ul li a:before {
+  transition: all .5s;
+}
+.shi  ul li a:hover {
+  
+    color: #c59d5f ;
+}
+.shi ul li a:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 1px;
+  color: transparent;
+  background: ;
+  visibility: none;
+  opacity: 0;
+  z-index: -1;
+}
+.shi ul li a:hover:after {
+  opacity: 1;
+  visibility: visible;
+  height: 100%;
+}
+.logo
+{
+  position: absolute;
+    height: 132px;
+    width: 304px;
+}
+#na
+{
+    font-family: "Source Sans Pro";
+    font-weight: 900;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 38px;
+    Color: black;
+    position: absolute;
+    margin-top: 22px;
+    margin-left: 41px;
+    text-decoration: underline;
+}
+#na a
+{
+        color: black;
+    
+}
+.taste
+{
+    margin-left: 571px;
+    font-family: "Herr Von Muellerhoff";
+    color: #c59d5f;
+    font-size: 122px;
+    line-height: 178px;
+    position: absolute;
+    margin-top: 20px;
+    font-weight: normal;
+}
+.restaurant {
+    background-color: white;
+    position: relative;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 4px;
+}
+
+.rest-wrapper {
+    display: flex;
+    font-family: sans-serif;
+}
+
+.rest-wrapper .image {
+    margin-right: 1rem;
+}
+
+.rest-wrapper .image img {
+    border-radius: 4px;
+}
+
+.rest-wrapper .rest-name {
+    font-size: 24px;
+    color: #cb202d;
+}
+
+.rest-wrapper .rest-category {
+    color: #89959B;
+    text-transform: uppercase;
+}
+
+.rest-wrapper .rest-address {
+    color: #89959B;
+}
+
+.rest-extra {
+    display: flex;
+    margin-top: 1rem;
+    border-top: 1px solid #e7e7e7;
+    padding: 1rem;
+}
+
+.rest-extra .type {
+    text-transform: uppercase;
+     color: #89959B;
+     flex: none;
+     margin-right: 2rem;
+}
+
+.restaurant .rating {
+    color: white;
+    background-color: #5BA829;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 18px;
+    border-radius: 4px;
+    letter-spacing: 2px;
+}
+
+
+.search-bar {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+
+.search-bar form {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar form .input-wrapper {
+   flex: 1;
+   margin-right: 1rem;
+}
+.f1
+{
+    
+    background: url(img/menu-thumb-1.jpg);
+    background-size: 100%;
+    height: 198;
+    margin-top: 35px;
+    width: 271;
+    margin-left: 86px;
+}
+.f2
+{
+    
+   background: url("img/menu-thumb-4.jpg");
+    height: 198;
+    margin-top: 18px;
+    width: 271;
+    margin-left: 381px;
+    background-size: contain;
+   
+    
+
+}
+.f3
+{   
+   
+      
+         background: url("img/menu-thumb-2.jpg");
+background-size: contain;
+    height: 198;
+    margin-top: -197px;
+    width: 271;
+    margin-left: 381px;
+   
+}
+.f4
+{
+    background: url("img/menu-thumb-6.jpg");
+       background-size: contain;
+    height: 198;
+    margin-top: -199px;
+    width: 271;
+    
+    margin-left: 86px;
+}
+.hea
+{
+           font-family: "Herr Von Muellerhoff";
+    color: #c59d5f;
+    font-size: 122px;
+    line-height: 138px;
+    position: absolute;
+    margin-top: -457px;
+    margin-left: 842px;
+font-style: normal;
+    font-weight: normal;
+}
+.headerrr
+{
+    height: 81px;
+    width: 100%;
+    position: fixed;
+  background:  white;
+    z-index: 300;
+}
+.me
+{
+   font-family: "Source Sans Pro";
+    font-weight: 900;
+    font-style: normal;
+    font-size: 47px;
+    line-height: 48px;
+    Color: black;
+    position: absolute;
+    margin-top: -356px;
+    margin-left: 945px;
+   
+}
+.mmm
+{          font-family: 'Cabin';
+    width: 412px;
+    margin-left: 795px;
+    position: absolute;
+    margin-top: -268px;
+    font-size: 16px;
+    color: #515150;
+    text-align: center;
+}
+.discover
+{
+    height: 500px;
+}
+.food
+{
+    
+    margin-top: 441px;
+    position: absolute;
+    height: 500px;
+    width: 100%;
+}
+.st
+{
+        margin-left: 1002px;
+    margin-top: -299px;
+}
+.last
+{
+       height: 435px;
+    position: absolute;
+    width: 100%;
+    margin-top: 901px;
+    background: url(img/frontpage-menu.jpg);
+    background-size: 100% 114%;
+    background-position-y: -28px;
+    color: black;
+   background-attachment: fixed;
+}
+.per
+{
+       margin-left: 499px;
+    font-family: "Herr Von Muellerhoff";
+    color: #c59d5f;
+    font-size: 122px;
+    line-height: 178px;
+    position: absolute;
+    margin-top: 116px;
+    font-weight: normal;
+}
+.perb
+
+{
+     font-family: "Source Sans Pro";
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 48px;
+    Color: white;
+    position: absolute;
+    margin-top: 237px;
+    margin-left: 561px;
+    letter-spacing: 9px;
+   
+
+}
+.tast
+{
+      font-family: "Source Sans Pro";
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 37px;
+    line-height: 48px;
+    Color: white;
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 603px;
+    letter-spacing: 9px;
+}
+.food2
+{
+            position: absolute;
+    margin-top: 1352px;
+    height: 500px;
+}
+.f5
+{
+   background: url(img/bacon-1-200x300.jpg);
+    background-size: 100%;
+    height: 405px;
+    margin-top: 35px;
+    width: 271;
+    margin-left: 688px;
+}
+.f6
+{
+   background: url(img/bacon-2-200x300.jpg);
+    background-size: 100%;
+    height: 406px;
+    position: absolute;
+    margin-top: -406px;
+    width: 271;
+    margin-left: 992px;
+}
+    .hea2
+    {
+            font-family: "Herr Von Muellerhoff";
+    color: #c59d5f;
+    font-size: 122px;
+    line-height: 138px;
+    position: absolute;
+    margin-top: -381px;
+    margin-left: 207px;
+    font-style: normal;
+    font-weight: normal;
+    }
+.me2
+{
+      font-family: "Source Sans Pro";
+    font-weight: 900;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 48px;
+    Color: black;
+    position: absolute;
+    margin-top: -288px;
+    margin-left: 263px;
+}
+.mmm2
+{
+    font-family: 'Cabin';
+    width: 412px;
+    margin-left: 132px;
+    position: absolute;
+    margin-top: -208px;
+    font-size: 16px;
+    color: #515150;
+    text-align: center;
+}
+.st2
+{
+    margin-left: 329px;
+    margin-top: -240px;
+}
