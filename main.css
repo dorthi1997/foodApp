@@ -188,7 +188,10 @@ h2 {
   box-shadow: inset 0px 0px 8px rgba(0,0,0,.2);
         margin-bottom: 34px;
 }
-
+.btn
+{
+    height: 46px;
+}
 .input label {
   color: #fff;
   display: inline-block;
@@ -704,6 +707,7 @@ background-image: url(img/bg-shop.jpg);
 }
 .gol
 {
+    opacity: 0.9;
 position: absolute;
     width: 143px;
     margin-top: 441px;
@@ -718,13 +722,14 @@ position: absolute;
     font-size: 84px;
 }
 .restaurant {
-       background-color: white;
+        background-color: white;
     width: 263px;
     height: 440px;
     box-shadow: 2px 0px 24px 0px;
-    margin-left: 105px;
+    margin-left: 75px;
     border-radius: 4px;
     margin-top: 48px;
+    display: inline-grid;
 }
 .rest-info
 {
@@ -792,24 +797,22 @@ position: absolute;
 }
 
 .restaurant .rating {
-   color: white;
+    color: white;
     background-color: #5BA829;
     position: absolute;
     padding: 0.5rem 1rem;
     font-size: 18px;
     border-radius: 4px;
     letter-spacing: 2px;
-    margin-left: 200px;
-    margin-top: -434px;
-    border: 1px solid #5BA829;
+    margin-left: 208px;
+    border: 2px solid #5BA829;
 }
 
 
 .search-bar {
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2rem;
+    width: 0;
+    margin-left: 1078px;
+    margin-top: -3365px;
 }
 
 .search-bar form {
@@ -820,12 +823,132 @@ position: absolute;
 .search-bar form .input-wrapper {
    flex: 1;
    margin-right: 1rem;
+           width: 291px;
+    margin-left: -34px;
 }
 .every
 {
-      position: absolute;
+        position: absolute;
     margin-top: 3px;
     background: #F9F9F9;
-    height: 4000px;
+    height: 3819px;
     width: 100%;
+}
+.bestr
+{
+    height: 330px;
+    width: 288px;
+    margin-left: 1048px;
+}
+.bestt
+{
+    font-size: 20px;
+    font-family: 'Kaushan Script', cursive;
+    line-height: 30px;
+    margin-left: 11px;
+    font-weight: normal;
+    font-style: normal;
+    color: #282828;
+}
+.bestm
+{
+         background: url(http://wallpapersdsc.net/wp-content/uploads/2016/09/Food-Images.jpg);
+    height: 89px;
+    width: 82px;
+    /* border: 2px solid red; */
+    margin-left: 15px;
+    background-size: 100% 100%;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+.bestp
+{
+      font-size: 21px;
+    line-height: 23px;
+    margin-left: 90px;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: normal;
+    font-style: normal;
+    margin-top: 8px;
+    color: #000000;
+}
+.bestp:hover
+{
+    transition: 1s ease;
+    color: #c59d5f;
+}
+.cost
+{
+        font-family: 'Kaushan Script', cursive;
+    color: #bc8d46;
+    font-weight: bold;
+    margin-left: 92px;
+    font-size: 17px;
+    margin-top: -17px;
+    
+}
+.bestm2
+{
+     background: url("https://23209-presscdn-pagely.netdna-ssl.com/wp-content/uploads/2016/12/Cheesy-Pizza-BreadIMG_3743.jpg");
+    height: 89px;
+    width: 82px;
+    /* border: 2px solid red; */
+    margin-left: 15px;
+    background-size: 100% 100%;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+
+#custom-search-input input{
+    border: 0;
+    box-shadow: none;
+}
+
+#custom-search-input button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input .glyphicon-search{
+    font-size: 23px;
+}
+.mn2
+{
+       background: url(img/granny-bg-slider2.jpg);
+    background-attachment: fixed;
+    height: 365px;
+    margin-top: 3159px;
+    border: 2px solid black;
+}
+.mn2:before
+{
+    height: 363px;
+    width: 100%;
+    content: "";
+    position: absolute;
+    top: 3602px;
+    left: 0;
+    background-color: rgba(27, 26, 26, 0.75);
+}
+.gol2
+{
+    position: absolute;
+    width: 143px;
+    margin-top: -3px;
+    margin-left: 614px;
+    transform: rotate(180deg);
+    opacity: 0.9;
+
 }

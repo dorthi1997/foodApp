@@ -63,7 +63,7 @@ foodieApp.controller('mainController',function($scope) {
 	name: 'Uncle JacKs',
 	address: 'Booth 11, Sector 8, Chandigarh',
 	location: 'Sec 8,Chandigarh',
-	category: 'American, Beverages, Dessertsr',
+	category: 'American, Beverages',
 	vote: '4.5',
 	cuisines: 'American, Beverages, Desserts',
 	cost: '800',
@@ -92,7 +92,147 @@ foodieApp.controller('mainController',function($scope) {
 	hours: ' 11 AM to 10:30 PM (Mon-Sun)',
 	image: 'https://23209-presscdn-pagely.netdna-ssl.com/wp-content/uploads/2016/12/Cheesy-Pizza-BreadIMG_3743.jpg'
 },
-                         
+         {
+	name: 'Sam Pizza',
+	address: 'SCO 11, Madhya Marg, Sector 26, Chandigarh',
+	location: 'Sec 28,Chandigarh',
+	category: 'Pizza, Fast Food',
+	vote: '4.2',
+	cuisines: 'Pizza, Fast Food',
+	cost: '900',
+	hours: ' 11 AM to 10:30 PM (Mon-Sun)',
+	image: 'https://23209-presscdn-pagely.netdna-ssl.com/wp-content/uploads/2016/12/Cheesy-Pizza-BreadIMG_3743.jpg'
+},   {
+	name: 'Sam Pizza',
+	address: 'SCO 11, Madhya Marg, Sector 26, Chandigarh',
+	location: 'Sec 28,Chandigarh',
+	category: 'Pizza, Fast Food',
+	vote: '4.2',
+	cuisines: 'Pizza, Fast Food',
+	cost: '900',
+	hours: ' 11 AM to 10:30 PM (Mon-Sun)',
+	image: 'https://23209-presscdn-pagely.netdna-ssl.com/wp-content/uploads/2016/12/Cheesy-Pizza-BreadIMG_3743.jpg'
+},   {
+	name: 'Sam Pizza',
+	address: 'SCO 11, Madhya Marg, Sector 26, Chandigarh',
+	location: 'Sec 28,Chandigarh',
+	category: 'Pizza, Fast Food',
+	vote: '4.2',
+	cuisines: 'Pizza, Fast Food',
+	cost: '900',
+	hours: ' 11 AM to 10:30 PM (Mon-Sun)',
+	image: 'https://23209-presscdn-pagely.netdna-ssl.com/wp-content/uploads/2016/12/Cheesy-Pizza-BreadIMG_3743.jpg'
+},   {
+	name: 'Sam Pizza',
+	address: 'SCO 11, Madhya Marg, Sector 26, Chandigarh',
+	location: 'Sec 28,Chandigarh',
+	category: 'Pizza, Fast Food',
+	vote: '4.2',
+	cuisines: 'Pizza, Fast Food',
+	cost: '900',
+	hours: ' 11 AM to 10:30 PM (Mon-Sun)',
+	image: 'https://23209-presscdn-pagely.netdna-ssl.com/wp-content/uploads/2016/12/Cheesy-Pizza-BreadIMG_3743.jpg'
+},   {
+	name: 'Sam Pizza',
+	address: 'SCO 11, Madhya Marg, Sector 26, Chandigarh',
+	location: 'Sec 28,Chandigarh',
+	category: 'Pizza, Fast Food',
+	vote: '4.2',
+	cuisines: 'Pizza, Fast Food',
+	cost: '900',
+	hours: ' 11 AM to 10:30 PM (Mon-Sun)',
+	image: 'https://23209-presscdn-pagely.netdna-ssl.com/wp-content/uploads/2016/12/Cheesy-Pizza-BreadIMG_3743.jpg'
+},   {
+	name: 'Sam Pizza',
+	address: 'SCO 11, Madhya Marg, Sector 26, Chandigarh',
+	location: 'Sec 28,Chandigarh',
+	category: 'Pizza, Fast Food',
+	vote: '4.2',
+	cuisines: 'Pizza, Fast Food',
+	cost: '900',
+	hours: ' 11 AM to 10:30 PM (Mon-Sun)',
+	image: 'https://23209-presscdn-pagely.netdna-ssl.com/wp-content/uploads/2016/12/Cheesy-Pizza-BreadIMG_3743.jpg'
+},   {
+	name: 'Sam Pizza',
+	address: 'SCO 11, Madhya Marg, Sector 26, Chandigarh',
+	location: 'Sec 28,Chandigarh',
+	category: 'Pizza, Fast Food',
+	vote: '4.2',
+	cuisines: 'Pizza, Fast Food',
+	cost: '900',
+	hours: ' 11 AM to 10:30 PM (Mon-Sun)',
+	image: 'https://23209-presscdn-pagely.netdna-ssl.com/wp-content/uploads/2016/12/Cheesy-Pizza-BreadIMG_3743.jpg'
+},   {
+	name: 'Sam Pizza',
+	address: 'SCO 11, Madhya Marg, Sector 26, Chandigarh',
+	location: 'Sec 28,Chandigarh',
+	category: 'Pizza, Fast Food',
+	vote: '4.2',
+	cuisines: 'Pizza, Fast Food',
+	cost: '900',
+	hours: ' 11 AM to 10:30 PM (Mon-Sun)',
+	image: 'https://23209-presscdn-pagely.netdna-ssl.com/wp-content/uploads/2016/12/Cheesy-Pizza-BreadIMG_3743.jpg'
+},   {
+	name: 'Sam Pizza',
+	address: 'SCO 11, Madhya Marg, Sector 26, Chandigarh',
+	location: 'Sec 28,Chandigarh',
+	category: 'Pizza, Fast Food',
+	vote: '4.2',
+	cuisines: 'Pizza, Fast Food',
+	cost: '900',
+	hours: ' 11 AM to 10:30 PM (Mon-Sun)',
+	image: 'https://23209-presscdn-pagely.netdna-ssl.com/wp-content/uploads/2016/12/Cheesy-Pizza-BreadIMG_3743.jpg'
+},   {
+	name: 'Sam Pizza',
+	address: 'SCO 11, Madhya Marg, Sector 26, Chandigarh',
+	location: 'Sec 28,Chandigarh',
+	category: 'Pizza, Fast Food',
+	vote: '4.2',
+	cuisines: 'Pizza, Fast Food',
+	cost: '900',
+	hours: ' 11 AM to 10:30 PM (Mon-Sun)',
+	image: 'https://23209-presscdn-pagely.netdna-ssl.com/wp-content/uploads/2016/12/Cheesy-Pizza-BreadIMG_3743.jpg'
+},   {
+	name: 'Sam Pizza',
+	address: 'SCO 11, Madhya Marg, Sector 26, Chandigarh',
+	location: 'Sec 28,Chandigarh',
+	category: 'Pizza, Fast Food',
+	vote: '4.2',
+	cuisines: 'Pizza, Fast Food',
+	cost: '900',
+	hours: ' 11 AM to 10:30 PM (Mon-Sun)',
+	image: 'https://23209-presscdn-pagely.netdna-ssl.com/wp-content/uploads/2016/12/Cheesy-Pizza-BreadIMG_3743.jpg'
+},   {
+	name: 'Sam Pizza',
+	address: 'SCO 11, Madhya Marg, Sector 26, Chandigarh',
+	location: 'Sec 28,Chandigarh',
+	category: 'Pizza, Fast Food',
+	vote: '4.2',
+	cuisines: 'Pizza, Fast Food',
+	cost: '900',
+	hours: ' 11 AM to 10:30 PM (Mon-Sun)',
+	image: 'https://23209-presscdn-pagely.netdna-ssl.com/wp-content/uploads/2016/12/Cheesy-Pizza-BreadIMG_3743.jpg'
+},   {
+	name: 'Sam Pizza',
+	address: 'SCO 11, Madhya Marg, Sector 26, Chandigarh',
+	location: 'Sec 28,Chandigarh',
+	category: 'Pizza, Fast Food',
+	vote: '4.2',
+	cuisines: 'Pizza, Fast Food',
+	cost: '900',
+	hours: ' 11 AM to 10:30 PM (Mon-Sun)',
+	image: 'https://23209-presscdn-pagely.netdna-ssl.com/wp-content/uploads/2016/12/Cheesy-Pizza-BreadIMG_3743.jpg'
+},   {
+	name: 'Sam Pizza',
+	address: 'SCO 11, Madhya Marg, Sector 26, Chandigarh',
+	location: 'Sec 28,Chandigarh',
+	category: 'Pizza, Fast Food',
+	vote: '4.2',
+	cuisines: 'Pizza, Fast Food',
+	cost: '900',
+	hours: ' 11 AM to 10:30 PM (Mon-Sun)',
+	image: 'https://23209-presscdn-pagely.netdna-ssl.com/wp-content/uploads/2016/12/Cheesy-Pizza-BreadIMG_3743.jpg'
+},                   
                          
 ]
 })

@@ -3,12 +3,19 @@
     <link rel="stylesheet" type="text/css" href="main.css">
     <script src="jquery.js"></script>
     <script src="angular.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	
     </head>
    
     <body>
 
-<!--
         <div class="front">
 
     <div class="welcome_screen">
@@ -17,7 +24,7 @@
     <ul>
       <li><a href="#">Home</a></li>
       <li><a href="#">Reservations</a></li>
-      <li><a href="#">order online</a></li>
+      <li><a href="#">order online</a></lif>
       <li><a href="#">Shop</a></li>
       <li><a href="#">Contact</a></li>
     </ul>
@@ -136,8 +143,7 @@
                 <div class="st2">✻</div>
                 </section>
         </div>
--->
-    <secion class="ord" ng-controller="mainController">
+    <secion class="ord hidden" ng-controller="mainController">
         <div class="ordero">
             <div class="headerrr">
                 <div class="logo">
@@ -163,7 +169,7 @@
                          </p>
                  </section>
         <section class="every">
-               <div ng-repeat="restaurant in restaurants" class="restaurant">
+               <div ng-repeat="restaurant in restaurants | filter:query" class="restaurant">
                     <div class="rest-wrapper">
                          <div class="image">
                              <img src="{{restaurant.image}}" height="150" width="220">
@@ -188,14 +194,31 @@
         <strong>{{restaurant.vote}}</strong>
     </div>
                    </div>
-          </section>
-        </div>
-    </secion>
 
-                
-            
-            
-            <script src="main.js"></script>
-    </body>
+            <div id="custom-search-input" class="search-bar">
+                <form>
+                <div class="input-group col-md-12 input-wrapper">
+                    <input type="text" class="form-control input-lg" placeholder="Search..." ng-model="query">
+                    <span class="input-group-btn">
+                        <button class="btn btn-info btn-lg btn-default" type="button">
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </span>
+                </div>
+                </form>
+            </div>
+            <div class="bestr">
+            <h5 class="bestt">Best Seller</h5>
+                <div class="bestm"><p class="bestp">BayLeaf</p><br><p class="cost">₹1600</p></div><br>
+                <div class="bestm2"><p class="bestp">SamPizza</p><br><p class="cost">₹900</p></div>
+            </div>
+            <section class="mn2">
+                    <img src="img/semi-circle.png" class="gol2">
+                        
+                 </section>
+            </section>
+        </div>
+        </secion>
+        <script src="main.js"></script>
+            </body>
 </html>
-  
