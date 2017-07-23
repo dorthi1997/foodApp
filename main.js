@@ -93,12 +93,12 @@ foodieApp.controller('mainController',function($scope) {
 	image: 'https://23209-presscdn-pagely.netdna-ssl.com/wp-content/uploads/2016/12/Cheesy-Pizza-BreadIMG_3743.jpg'
 },
          {
-	name: 'Sam Pizza',
-	address: 'SCO 11, Madhya Marg, Sector 26, Chandigarh',
+	name: 'Urban Cafe',
+	address: 'Hyatt Regency,178,Chandigarh Industrial Area',
 	location: 'Sec 28,Chandigarh',
-	category: 'Pizza, Fast Food',
-	vote: '4.2',
-	cuisines: 'Pizza, Fast Food',
+	category: 'Fine Dinning',
+	vote: '4.5',
+	cuisines: 'Chinese, Fast Food, Mexican',
 	cost: '900',
 	hours: ' 11 AM to 10:30 PM (Mon-Sun)',
 	image: 'https://23209-presscdn-pagely.netdna-ssl.com/wp-content/uploads/2016/12/Cheesy-Pizza-BreadIMG_3743.jpg'
