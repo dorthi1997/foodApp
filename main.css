@@ -982,3 +982,12 @@ position: absolute;
 {
         position: absolute;
 }
+.fs
+{
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    position: absolute;
+    margin-left: 322px;
+    font-size: 34px;
+    margin-top: 215px;
+}
