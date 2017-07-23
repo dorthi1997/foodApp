@@ -173,20 +173,33 @@ h2 {
   margin: auto;
 }
 .input {
-  width: 100%;
-  height: 38px;
-  line-height: 36px;
-  padding: 0px 9px;
-      margin-bottom: 25px;
-  border-radius:5px;
-  border:1px solid rgba(242,242,242,0.3);
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-box-shadow: inset 0px 0px 8px rgba(0,0,0,.2);
-  -moz-box-shadow: inset 0px 0px 8px rgba(0,0,0,.2);
-  box-shadow: inset 0px 0px 8px rgba(0,0,0,.2);
-        margin-bottom: 34px;
+     width: 100%;
+    height: 30px;
+    line-height: 58px;
+    padding: 0px 9px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border: 1px solid rgba(242,242,242,0.3);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: inset 0px 0px 8px rgba(0,0,0,.2);
+    -moz-box-shadow: inset 0px 0px 8px rgba(0,0,0,.2);
+    box-shadow: inset 0px 0px 8px rgba(0,0,0,.2);
+    margin-bottom: 34px;    width: 100%;
+    height: 30px;
+    line-height: 58px;
+    padding: 0px 9px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border: 1px solid rgba(242,242,242,0.3);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: inset 0px 0px 8px rgba(0,0,0,.2);
+    -moz-box-shadow: inset 0px 0px 8px rgba(0,0,0,.2);
+    box-shadow: inset 0px 0px 8px rgba(0,0,0,.2);
+    margin-bottom: 34px;
 }
 .btn
 {
@@ -200,16 +213,21 @@ h2 {
 }
 
 .input input {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  background: none;
-  border:none;
-  width: 235px;
-  outline:none;
-  color: #fff;
-  font-size:12px;
-  font-weight: 100;
+    
+    
+    background: none;
+    border: none;
+    width: 284px;
+    margin-top: -5px;
+    cursor: pointer;
+    height: 42px;
+    outline: none;
+    height: 37px;
+    margin-left: -9px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 100;
+    height: 30px;
 }
 ::-webkit-input-placeholder { /* WebKit browsers */
     color:    #fff;
@@ -356,7 +374,7 @@ input.ng-invalid.ng-dirty
 .aaaa
 {
     color: white;
-    margin-top: -13px;
+    margin-top: -21px;
     font-size: 10px;
     margin-left: -9px;
 }
@@ -933,19 +951,20 @@ position: absolute;
 }
 .mn2
 {
-       background: url(img/granny-bg-slider2.jpg);
+        background: url(img/granny-bg-slider2.jpg);
     background-attachment: fixed;
-    height: 365px;
-    margin-top: 3159px;
     border: 2px solid black;
+    position: absolute;
+    bottom: 0;
+    height: 281px;
+    width: 100%;
 }
 .mn2:before
 {
-    height: 363px;
+   height: 277px;
     width: 100%;
     content: "";
     position: absolute;
-    top: 3602px;
     left: 0;
     background-color: rgba(27, 26, 26, 0.75);
 }
@@ -958,4 +977,8 @@ position: absolute;
     transform: rotate(180deg);
     opacity: 0.9;
 
+}
+.srch
+{
+        position: absolute;
 }
