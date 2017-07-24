@@ -417,8 +417,9 @@ input.ng-invalid.ng-dirty
     width: 100%;
 }
 .shi {
-       position: absolute;
+         position: absolute;
     margin-left: 413px;
+    margin-top: 15px;
 }
 
 .shi ul li {
@@ -1006,4 +1007,29 @@ position: absolute;
     margin-left: 322px;
     font-size: 34px;
     margin-top: 215px;
+}
+.image2
+{
+     background-color: black;
+    position: absolute;
+    height: 304px;
+    width: 263px;
+    box-shadow: 1px 1px 11px 3px;
+}
+.reverse
+{
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 28px;
+    margin-top: 77px;
+    text-align: center;
+}
+.reverseadd
+{
+        color: whitesmoke;
+    opacity: 0.9;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 28px;
+    margin-top: 9px;
+    text-align: center;
 }

@@ -248,3 +248,10 @@ foodieApp.controller('signinController',function($scope) {
 })
 foodieApp.controller('frontController',function($scope) {
 })
+
+
+$(".rest-wrapper .image").mouseover(function(){
+    $(".image").addClass('hidden');
+    $(".image2").removeClass('hidden');
+});
+

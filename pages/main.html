@@ -26,9 +26,18 @@
         <section class="every">
                <div ng-repeat="restaurant in restaurants | filter:query" class="restaurant">
                     <div class="rest-wrapper">
-                         <div class="image">
+                        <div class="chng">
+                         <div class="image hidden ">
                              <img src="{{restaurant.image}}" height="150" width="220">
                          </div>
+                        <div class="image2 ">
+                            <p class="reverse">{{restaurant.hours}} </p>
+                            <p class="reverseadd">{{restaurant.location}} </p>
+                            
+                         </div>
+                        </div>
+                       
+                        <div class="other hidden" style="background:black;"></div>
         
                  <div class="rest-info">
                       <div class="rest-category">
