@@ -1,0 +1,77 @@
+   <secion class="ord" ng-controller="mainController">
+        <div class="ordero">
+            <div class="headerrr">
+                <div class="logo">
+                        <h2 id="na">
+                            <a href="#">THE PRESIDENT</a>
+                        </h2>
+                </div>     
+                 <div class="shi">
+                     <ul>
+                         <li><a href="#">Home</a></li>
+                         <li><a href="#">Reservations</a></li>
+                         <li class="order"><a href="#">order online</a></li>
+                         <li><a href="#">Blog</a></li>
+                         <li><a href="#">Shop</a></li>
+                         <li><a href="#">Features</a></li>
+                         <li><a href="#">Contact</a></li>
+                      </ul>
+                  </div>
+              </div>
+                <section class="mn">
+                    <img src="img/semi-circle.png" class="gol">
+                         <p class="perm">Order food online from the best restaurants near you
+                         </p>
+                 </section>
+        <section class="every">
+               <div ng-repeat="restaurant in restaurants | filter:query" class="restaurant">
+                    <div class="rest-wrapper">
+                         <div class="image">
+                             <img src="{{restaurant.image}}" height="150" width="220">
+                         </div>
+        
+                 <div class="rest-info">
+                      <div class="rest-category">
+                          {{restaurant.category}} 
+                      </div>
+                 <div class="rest-name">
+                        <strong>{{restaurant.name}}</strong>
+                 </div>
+                        <div class="value">
+            
+                     <div>₹{{restaurant.cost | number}}</div>
+            
+                     </div>
+                     
+                   </div>
+                   </div>
+                   <div class="rating">
+        <strong>{{restaurant.vote}}</strong>
+    </div>
+                   </div>
+
+            <div id="custom-search" class="sbar">
+                <form>
+                <div class="input-gro input-wrap">
+                    <input type="text" class="forml input-lg" placeholder="Search..." ng-model="query">
+                    <span class="input-group-btn  " id="btnn">
+                        <button class="btn btn-info btn-lg btn-default" type="button">
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </span>
+                </div>
+                </form>
+            </div>
+            <div class="bestr">
+            <h5 class="bestt">Best Seller</h5>
+                <div class="bestm"><p class="bestp">BayLeaf</p><br><p class="cost">₹1600</p></div><br>
+                <div class="bestm2"><p class="bestp">SamPizza</p><br><p class="cost">₹900</p></div>
+            </div>
+           
+            <section class="mn2">
+                    <img src="img/semi-circle.png" class="gol2">
+                        <p class="fs">HANDCRAFTED WITH &nbsp;<img src="img/clip-art-png-19.png" style="height:30px">&nbsp;BY DORTHI SHREE</p>
+                 </section>
+            </section>
+        </div>
+        </secion>

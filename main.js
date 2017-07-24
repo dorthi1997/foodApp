@@ -1,18 +1,24 @@
- $('.loginbuttonn').on('click', function() {
-      $('.welcome_screen').addClass('hidden'); 
-     $('.signin').removeClass('hidden');
- });
- $('.front .btn').on('click', function() {
-     $('.signin').addClass('hidden');
-     $('.main').removeClass('hidden');
- });
-$('.shi .order').on('click', function() {
-     $('.main').addClass('hidden');
-     $('.ord').removeClass('hidden');
- });
+var foodieApp = angular.module('foodieApp',['ngRoute']);
+foodieApp.config(function ($routeProvider) {
+	$routeProvider
+	.when('/',{
+		templateUrl: 'pages/front.html',
+		controller: 'frontController'
+	})
+	.when('/signin',{
+		templateUrl: 'pages/signin.html',
+		controller: 'mainController'
+	})
+    	.when('/home',{
+		templateUrl: 'pages/home.html',
+		controller: 'mainController'
+	})
+    	.when('/main',{
+		templateUrl: 'pages/main.html',
+		controller: 'mainController'
+	})
+})
 
-
-var foodieApp = angular.module('foodieApp',[]);
 foodieApp.controller('mainController',function($scope) {
 	$scope.restaurants = [{
 	name: 'BigWhich',
@@ -235,4 +241,10 @@ foodieApp.controller('mainController',function($scope) {
 },                   
                          
 ]
+})
+foodieApp.controller('homeController',function($scope) {
+})
+foodieApp.controller('signinController',function($scope) {
+})
+foodieApp.controller('frontController',function($scope) {
 })
