@@ -7,11 +7,11 @@ foodieApp.config(function ($routeProvider) {
 	})
 	.when('/signin',{
 		templateUrl: 'pages/signin.html',
-		controller: 'mainController'
+		controller: 'signinController'
 	})
     	.when('/home',{
 		templateUrl: 'pages/home.html',
-		controller: 'mainController'
+		controller: 'homeController'
 	})
     	.when('/main',{
 		templateUrl: 'pages/main.html',
@@ -244,14 +244,14 @@ foodieApp.controller('mainController',function($scope) {
 })
 foodieApp.controller('homeController',function($scope) {
 })
-foodieApp.controller('signinController',function($scope) {
+
+foodieApp.controller('signinController',function($scope,$location) {
+	$scope.goToHome = function() {
+		//console.log('Do Something')
+		$location.url('home')
+	}
 })
 foodieApp.controller('frontController',function($scope) {
 })
 
-
-$(".rest-wrapper .image").mouseover(function(){
-    $(".image").addClass('hidden');
-    $(".image2").removeClass('hidden');
-});
 

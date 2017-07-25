@@ -8,13 +8,13 @@
                 </div>     
                  <div class="shi">
                      <ul>
-                         <li><a href="#">Home</a></li>
+                         <li><a href="#!/home">Home</a></li>
                          <li><a href="#">Reservations</a></li>
-                         <li class="order"><a href="#">order online</a></li>
+                         <li><a href="#!/main">order online</a></li>
                          <li><a href="#">Blog</a></li>
                          <li><a href="#">Shop</a></li>
                          <li><a href="#">Features</a></li>
-                         <li><a href="#">Contact</a></li>
+                         <li><a href="#!/signin">LogOut</a></li>
                       </ul>
                   </div>
               </div>
@@ -27,17 +27,16 @@
                <div ng-repeat="restaurant in restaurants | filter:query" class="restaurant">
                     <div class="rest-wrapper">
                         <div class="chng">
-                         <div class="image hidden ">
+                         <div class="image" id="img">
                              <img src="{{restaurant.image}}" height="150" width="220">
                          </div>
-                        <div class="image2 ">
+                         <div class="image2 hidden">
                             <p class="reverse">{{restaurant.hours}} </p>
                             <p class="reverseadd">{{restaurant.location}} </p>
                             
                          </div>
                         </div>
-                       
-                        <div class="other hidden" style="background:black;"></div>
+                     
         
                  <div class="rest-info">
                       <div class="rest-category">
