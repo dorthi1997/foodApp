@@ -269,15 +269,21 @@ foodieApp.controller('mainController',function($scope) {
 })
 foodieApp.controller('homeController',function($scope) {
 })
-
+foodieApp.controller('frontController',function($scope,$location) {
+    $scope.goToSignin = function() {
+		//console.log('Do Something')
+		$location.url('signin')
+//        console.log($location.url())
+	}
+})
 foodieApp.controller('signinController',function($scope,$location) {
 	$scope.goToHome = function() {
 		//console.log('Do Something')
 		$location.url('home')
 	}
 })
-foodieApp.controller('frontController',function($scope) {
-})
+
+
 foodieApp.controller('restaurantController',function($scope,$routeParams,$http) {
 
 	$scope.restaurantId = $routeParams.id;
@@ -543,10 +549,33 @@ foodieApp.controller('restaurantController',function($scope,$routeParams,$http) 
 					}).then(function (response) {
 								var ingredients = response.data.outputs[0].data.concepts;
                         $scope.ingredients = [];
-					  			console.log(response );
-									for (var i =0;i < ingredients.length;i++) {
+					  			console.log(response);
+                        var protien = ["eggs", "almonds", "oats", "cheese", "yogurt", "milk", "brocolli", "tuna", " quinoa", "Lean Beef",];
+                        var fats = ["Avocados", "Avocados", "Dark Chocolate", "Dark Chocolate", "Dark Chocolate", "Nuts", "Chia Seeds",];
+                        var Carbs = ["Oatmeal", "Yams", "Brown rice", "Brown rice", "Quinoa", "Quinoa", "Pumpkin", "Pumpkin"];
+							for (var i =0;i < ingredients.length;i++) {
 										$scope.ingredients.push(ingredients[i].name);
 										}
+                        for(var i="0";i<protien.lengh;i++)
+                            {
+                               if($scope.ingredients.indexOf(carb[i]) > -1){
+	 										 	var info3 = "<p class='highlight-info'>Carbohydrate Rich</p>";
+	 												console.log('carb rich');
+	 												$(".type .bestDish").append(info3);
+	 												$(".highlight-info").css("background-color" ,"blue");
+	 												break;
+	 											}
+
+												else {
+													 	var info4 = "<h1 class='highlight-info'>Not a nutrient rich food</h1>";
+														$(".type .bestDish").append(info3);
+														$(".highlight-info").css("background-color" ,"blue");
+												}
+
+
+
+										}
+
 
 					}, function (xhr) {
 								console.log(xhr);

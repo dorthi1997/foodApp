@@ -781,6 +781,7 @@ position: absolute;
     margin-top: 48px;
     display: inline-grid;
 }
+
 .rest-info
 {
        margin-top: 327px;
@@ -1034,13 +1035,10 @@ position: absolute;
     font-size: 34px;
     margin-top: 215px;
 }
-.image2
-{
-     background-color: black;
+.image2 {
     position: absolute;
-    height: 304px;
-    width: 263px;
-    box-shadow: 1px 1px 11px 3px;
+    height: 73%;
+    width: 57%;
 }
 .reverse
 {
@@ -1060,19 +1058,21 @@ position: absolute;
     text-align: center;
 }
 .bestDish .button {
-    display: inline-block;
-    background-color:#cb202d;
+      display: inline-block;
+    background-color: #cb202d;
     color: white;
     padding: 0.4rem 1rem;
     border-radius: 4px;
     cursor: pointer;
+    margin-left: 74px;
+
 }
 .restaurant2
 {
-        background-color: white;
-    width: 89%;
-    height: 459px;
-    box-shadow: 2px 0px 24px 0px;
+    background-color: white;
+    width: 57%;
+    height: 677px;
+    box-shadow: 0px 0px 33px 1px;
     margin-left: 75px;
     border-radius: 4px;
     margin-top: 48px;
@@ -1081,18 +1081,100 @@ position: absolute;
 }
 .image2
 {
-        position: absolute;
-    height: 77%;
-    width: 89%; 
+    position: absolute;
+    height: 73%;
+    width: 57%;
 
+}
+.rating2
+{
+    color: white;
+    background-color: #5BA829;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    letter-spacing: 2px;
+    border: 2px solid #5BA829;
+    position: absolute;
+    margin-top: 495px;
+    margin-left: 664px;
+    font-size: 18px;
 }
 .img2
 {
-    vertical-align: middle;
+ vertical-align: middle;
     height: 100%;
     width: 100%;
 }
+.rest-info2
+{
+     position: absolute;
+    margin-top: 561px;
+    width: 523px;
+    margin-left: 13px;
+    font-size: 19px;
+}
+.hhy
+{
+       border: 2px solid #099E44;
+    color: white;
+    background: #099E44;
+    padding: 10px;
+    position: absolute;
+    margin-left: 34px;
+    border-radius: 8px;
+}
+.meo
+{
+        position: absolute;
+    margin-top: 620px;
+    margin-bottom: 46px;
+    height: 49px;
+    width: 311px;
+    margin-left: -24px;
+}
+.buu
+{
+        position: absolute;
+    border: 2px solid #099E44;
+    color: white;
+    background: #099E44;
+    padding: 11px;
+    width: 140px;
+    margin-left: 204px;
+}
 .rest-extra2
 {
+    font-family: 'Kaushan Script', cursive;
     position: absolute;
+    margin-left: 866px;
+    margin-top: 2px;
+}
+.mma
+{
+        position: absolute;
+    margin-top: 501px;
+    font-size: 46px;
+    margin-left: 5px;
+}
+.line {
+      margin-left: 1012px;
+    font-family: 'Cabin';
+    position: absolute;
+    top: 0;
+    margin-top: 643px;
+    width: 214px;
+
+}
+.abc
+{
+    font-size: 19px;
+}
+.star
+{
+        position: absolute;
+    top: 0;
+    margin-top: 1307px;
+    left: 0;
+    height: 48px;
+    margin-left: 90px;
 }
