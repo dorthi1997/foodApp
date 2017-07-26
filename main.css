@@ -1042,3 +1042,11 @@ position: absolute;
     margin-top: 9px;
     text-align: center;
 }
+.bestDish .button {
+    display: inline-block;
+    background-color:#cb202d;
+    color: white;
+    padding: 0.4rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
