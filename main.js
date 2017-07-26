@@ -565,7 +565,7 @@ foodieApp.controller('restaurantController',function($scope,$routeParams,$http) 
      if ($scope.ingredients.indexOf(protein[i]) > -1) {
 												var info = "<p>Protien Rich</p>";
 												console.log("run");
-													$(".rest-extra .best-dish").append(info);
+													$(".value2 .bestDish").append(info);
 													$(".highlight-info").css("background-color" ,"green");
 													break;
 												 }
@@ -573,7 +573,7 @@ foodieApp.controller('restaurantController',function($scope,$routeParams,$http) 
             else if($scope.ingredients.indexOf(fat[i]) > -1){
 										 	var info2 = "<p class='highlight-info'>Fat Rich</p>";
 												console.log('fat rich');
-												$(".type .bestDish").append(info2);
+												$(".value2 .bestDish").append(info2);
 												$(".highlight-info").css("background-color" ,"yellow");
 												break;
 											}
@@ -581,14 +581,14 @@ foodieApp.controller('restaurantController',function($scope,$routeParams,$http) 
 				else if($scope.ingredients.indexOf(carb[i]) > -1){
 	 										 	var info3 = "<p class='highlight-info'>Carbohydrate Rich</p>";
 	 												console.log('carb rich');
-	 												$(".type .bestDish").append(info3);
+	 												$(".value2 .bestDish").append(info3);
 	 												$(".highlight-info").css("background-color" ,"blue");
 	 												break;
 	 											}
 
 												else {
 													 	var info4 = "<h1 class='highlight-info'>Not a nutrient rich food</h1>";
-														$(".type .bestDish").append(info3);
+														$(".value2 .bestDish").append(info3);
 														$(".highlight-info").css("background-color" ,"blue");
 												}
 
