@@ -763,7 +763,7 @@ position: absolute;
 }
 .permo
 {
-       font-family: "Herr Von Muellerhoff";
+    font-family: 'Kaushan Script', cursive;
     position: absolute;
     width: 100%;
     text-align: center;
@@ -1084,6 +1084,7 @@ position: absolute;
         position: absolute;
     height: 77%;
     width: 89%; 
+
 }
 .img2
 {
