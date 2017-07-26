@@ -550,15 +550,35 @@ foodieApp.controller('restaurantController',function($scope,$routeParams,$http) 
 								var ingredients = response.data.outputs[0].data.concepts;
                         $scope.ingredients = [];
 					  			console.log(response);
+                        var list = '';
                         var protien = ["eggs", "almonds", "oats", "cheese", "yogurt", "milk", "brocolli", "tuna", " quinoa", "Lean Beef",];
                         var fats = ["Avocados", "Avocados", "Dark Chocolate", "Dark Chocolate", "Dark Chocolate", "Nuts", "Chia Seeds",];
                         var Carbs = ["Oatmeal", "Yams", "Brown rice", "Brown rice", "Quinoa", "Quinoa", "Pumpkin", "Pumpkin"];
-							for (var i =0;i < ingredients.length;i++) {
-										$scope.ingredients.push(ingredients[i].name);
+						for (var i =0;i < ingredients.length;i++) {
+           $scope.ingredients.push(ingredients[i].name);
+
 										}
-                        for(var i="0";i<protien.lengh;i++)
-                            {
-                               if($scope.ingredients.indexOf(carb[i]) > -1){
+
+										for(var i=0;i< protein.length;i++){
+											// CHECK FOR THE PROTEIN ROR CARB OR FAT RICH FOOD
+											//console.log($scope.protein);
+     if ($scope.ingredients.indexOf(protein[i]) > -1) {
+												var info = "<p>Protien Rich</p>";
+												console.log("run");
+													$(".rest-extra .best-dish").append(info);
+													$(".highlight-info").css("background-color" ,"green");
+													break;
+												 }
+
+            else if($scope.ingredients.indexOf(fat[i]) > -1){
+										 	var info2 = "<p class='highlight-info'>Fat Rich</p>";
+												console.log('fat rich');
+												$(".type .bestDish").append(info2);
+												$(".highlight-info").css("background-color" ,"yellow");
+												break;
+											}
+
+				else if($scope.ingredients.indexOf(carb[i]) > -1){
 	 										 	var info3 = "<p class='highlight-info'>Carbohydrate Rich</p>";
 	 												console.log('carb rich');
 	 												$(".type .bestDish").append(info3);
@@ -577,8 +597,17 @@ foodieApp.controller('restaurantController',function($scope,$routeParams,$http) 
 										}
 
 
+
+
+
+										//console.log(ingredients.length);
+						//console.log(list);
 					}, function (xhr) {
-								console.log(xhr);
-							 });
+												   console.log(xhr);
+												  });
+
+
 }
+
+
 })
