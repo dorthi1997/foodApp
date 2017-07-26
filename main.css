@@ -761,6 +761,16 @@ position: absolute;
     margin-left: 146px;
     font-size: 84px;
 }
+.permo
+{
+       font-family: "Herr Von Muellerhoff";
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 84px;
+    margin-top: 212px;
+
+}
 .restaurant {
         background-color: white;
     width: 263px;
@@ -803,10 +813,17 @@ position: absolute;
     width: 263px;
 }
 
-.rest-wrapper .rest-name {
-        font-size: 43px;
+.rest-wrapper .rest-name a {
+    font-size: 43px;
     font-family: 'Kaushan Script', cursive;
     margin-left: -15px;
+    color: black;
+    text-decoration: none;
+}
+.rest-wrapper .rest-name a:hover {
+      transition: 0.5 ease;
+      color: #c59d5f;
+  
 }
 
 .rest-wrapper .rest-category {
@@ -1049,4 +1066,32 @@ position: absolute;
     padding: 0.4rem 1rem;
     border-radius: 4px;
     cursor: pointer;
+}
+.restaurant2
+{
+        background-color: white;
+    width: 89%;
+    height: 459px;
+    box-shadow: 2px 0px 24px 0px;
+    margin-left: 75px;
+    border-radius: 4px;
+    margin-top: 48px;
+    display: inline-grid;
+    margin-bottom: 101px;
+}
+.image2
+{
+        position: absolute;
+    height: 77%;
+    width: 89%; 
+}
+.img2
+{
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+}
+.rest-extra2
+{
+    position: absolute;
 }

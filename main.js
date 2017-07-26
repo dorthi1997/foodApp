@@ -290,7 +290,7 @@ foodieApp.controller('restaurantController',function($scope,$routeParams,$http) 
 	cuisines: 'Modern Indian',
 	cost: '1200',
 	hours: '12 Noon to 1 AM (Mon-Sun)',
-	image: 'https://cdn2.tmbi.com/TOH/Images/Photos/37/300x300/EXPS_FRBZ16_198384_C05_10_4b.jpg',
+	image: 'http://i.ndtvimg.com/i/2015-01/murgh-makhni_625x350_61421325380.jpg',
         id:1,
 },
 
@@ -303,7 +303,7 @@ foodieApp.controller('restaurantController',function($scope,$routeParams,$http) 
 	cuisines: 'Modern Indian',
 	cost: '600',
 	hours: '11 AM to 11 AM (Mon-Sun)',
-	image: 'http://images.all-free-download.com/images/graphiclarge/food_picture_03_hd_pictures_167556.jpg',
+	image: 'https://static.independent.co.uk/s3fs-public/styles/article_small/public/thumbnails/image/2017/02/07/15/chinese.jpg',
                               id:2,
 },
                               {
@@ -315,7 +315,7 @@ foodieApp.controller('restaurantController',function($scope,$routeParams,$http) 
 	cuisines: 'Modern Indian',
 	cost: '2200',
 	hours: '12 Noon to 1 AM (Mon-Sun)',
-	image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuRQx3h39_co7L3NT_z5TbrdQqfMaZsSx5RLfq6jF4TZ9cXrC1',
+	image: 'http://www.ringof5.com/userdata/fun_rings/138_1360954898_1647163177.jpg',
                                   id:3,
 },
                             {
@@ -327,7 +327,7 @@ foodieApp.controller('restaurantController',function($scope,$routeParams,$http) 
 	cuisines: 'North Indian, Continental',
 	cost: '1600',
 	hours: '10 Noon to 1 AM (Mon-Sun)',
-	image: 'http://wallpapersdsc.net/wp-content/uploads/2016/09/Food-Images.jpg',
+	image: 'http://cf.yellowblissroad.com/wp-content/uploads/2015/07/Yummy-Pizza-Pinwheels.jpg',
                                 id:4,
 },
                             {
@@ -339,7 +339,7 @@ foodieApp.controller('restaurantController',function($scope,$routeParams,$http) 
 	cuisines: 'American, Beverages, Desserts',
 	cost: '800',
 	hours: ' 10 AM to 11 PM (Mon-Sun)',
-	image: 'https://scontent.cdninstagram.com/t51.2885-15/s480x480/e35/13658408_490009667863501_565993311_n.jpg?ig_cache_key=MTI5ODMzMTYyMjY4ODQ2MTUzMg%3D%3D.2',
+	image: 'http://assets.bonappetit.com/photos/57b26988319a58275764d88e/16:9/w_1200,c_limit/five-spice-apple-pie.jpg?mbid=social_retweet',
                                 id:5,
 },
                             {
@@ -351,7 +351,7 @@ foodieApp.controller('restaurantController',function($scope,$routeParams,$http) 
 	cuisines: 'Modern Indian',
 	cost: '400',
 	hours: '12 Noon to 12 MidNight (Mon-Sun)',
-	image: 'https://b.zmtcdn.com/data/reviews_photos/984/668f504ddabaada1dd9809090720d984_1492132770.jpg',
+	image: 'https://images-gmi-pmc.edge-generalmills.com/4f041061-88a3-4886-98ae-e65da19e79bd.jpg',
                                 id:6,
 },
                             {
@@ -363,11 +363,11 @@ foodieApp.controller('restaurantController',function($scope,$routeParams,$http) 
 	cuisines: 'Pizza, Fast Food',
 	cost: '900',
                                     bestDish: {
-	name: 'Corn Pizza',
-	image: 'http://noblepig.com/images/2016/06/Avocado-and-Three-Bean-Salad-is-perfect-for-a-summertime-barbecue-side-dish.JPG'
+	name: 'FarmHouse Pizza',
+	image: 'https://www.elementstark.com/woocommerce-extension-demos/wp-content/uploads/sites/2/2016/12/pizza.jpg'
     },
 	hours: ' 11 AM to 10:30 PM (Mon-Sun)',
-	image: 'https://23209-presscdn-pagely.netdna-ssl.com/wp-content/uploads/2016/12/Cheesy-Pizza-BreadIMG_3743.jpg',
+	image: 'http://www.ringof5.com/userdata/fun_rings/138_1360954898_1647163177.jpg',
                                 id:7,
 },
          {
@@ -379,7 +379,7 @@ foodieApp.controller('restaurantController',function($scope,$routeParams,$http) 
 	cuisines: 'Chinese, Fast Food, Mexican',
 	cost: '900',
 	hours: ' 11 AM to 10:30 PM (Mon-Sun)',
-	image: 'http://drop.ndtv.com/albums/COOKS/pasta-vegetarian/pastaveg_640x480.jpg',
+	image: 'http://i2.cdn.turner.com/money/dam/assets/141224105650-chinese-food-xmas-1024x576.jpg',
              id:8,
 },   {
 	name: 'Food@u',
@@ -390,7 +390,7 @@ foodieApp.controller('restaurantController',function($scope,$routeParams,$http) 
 	cuisines: 'Pizza, Fast Food',
 	cost: '700',
 	hours: ' 11 AM to 10:30 PM (Mon-Sun)',
-	image: 'https://s-media-cache-ak0.pinimg.com/736x/ec/60/5a/ec605a2c4d9a830650f8c4fbf1c36935--bengali-food-roll-recipe.jpg',
+	image: 'http://i.ndtvimg.com/i/2015-09/spring-rolls-625_625x350_71441392136.jpg',
     id:9,
 },   {
 	name: 'Dibbavala',
@@ -401,7 +401,7 @@ foodieApp.controller('restaurantController',function($scope,$routeParams,$http) 
 	cuisines: 'Pizza, Fast Food',
 	cost: '900',
 	hours: ' 11 AM to 10:30 PM (Mon-Sun)',
-	image: 'http://i.ndtvimg.com/i/2016-05/aloo_625x350_51464600645.jpg',
+	image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9l1P6rSHuO7zPibvfoPL5RKntXzbdoGpm_DSNm9-5IqXJmMpO',
     id:10,
 },   {
 	name: 'Mrs. WonGs',
@@ -412,7 +412,7 @@ foodieApp.controller('restaurantController',function($scope,$routeParams,$http) 
 	cuisines: 'Asian,Street Food',
 	cost: '500',
 	hours: ' 11 AM to 10:30 PM (Mon-Sun)',
-	image: 'http://i.ndtvimg.com/i/2016-06/chinese-625_625x350_81466064119.jpg',
+	image: 'http://i.ndtvimg.com/i/2015-09/chilli-chicken-625_625x350_41441399214.jpg',
     id:11,
 },   {
 	name: '3  Gems',
@@ -423,7 +423,7 @@ foodieApp.controller('restaurantController',function($scope,$routeParams,$http) 
 	cuisines: 'Indian, Fast Food',
 	cost: '500',
 	hours: ' 11 AM to 12:30 PM (Mon-Sun)',
-	image: 'https://i.ytimg.com/vi/XGFzne__Fw8/maxresdefault.jpg',
+	image: 'http://www2.pictures.zimbio.com/mp/A2QXA_4PTKMx.jpg',
     id:12,
 },   {
 	name: 'Super Cafe',
@@ -434,7 +434,7 @@ foodieApp.controller('restaurantController',function($scope,$routeParams,$http) 
 	cuisines: 'Pasta, Fast Food',
 	cost: '600',
 	hours: ' 11 AM to 10:30 PM (Mon-Sun)',
-	image: 'https://i.ytimg.com/vi/ZCK6RZH2fgI/maxresdefault.jpg',
+	image: 'https://i.ytimg.com/vi/4q8GwxethQ0/maxresdefault.jpg',
     id:13,
 },   {
 	name: 'Mingo Time',
@@ -445,7 +445,7 @@ foodieApp.controller('restaurantController',function($scope,$routeParams,$http) 
 	cuisines: 'Cafe, Fast Food',
 	cost: '1100',
 	hours: ' 11 AM to 11:00 PM (Mon-Sun)',
-	image: 'https://i.ytimg.com/vi/TjiRghFtQko/maxresdefault.jpg',
+	image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyyBXwG_WjGFGaY5buiaCLbayuzcwGfZFRNRxPvDtUl0XNcQN5',
     id:14,
 },   {
 	name: 'Classic 44',
@@ -457,7 +457,7 @@ foodieApp.controller('restaurantController',function($scope,$routeParams,$http) 
 	cuisines: 'Pizza, Fast Food',
 	cost: '200',
 	hours: ' 9.30 AM to 9:30 PM (Mon-Sun)',
-	image: 'http://kristinakuzmic.com/wp-content/uploads/2013/06/KK_RecipeImage_MoltenChocCakeopt.jpg'
+	image: 'http://img.taste.com.au/vs8Qf1bJ/taste/2016/11/chocolate-lava-cakes-79308-1.jpeg'
 },   {
 	name: 'Miso Hung',
 	address: 'Sector 34, Chandigarh',
@@ -468,7 +468,7 @@ foodieApp.controller('restaurantController',function($scope,$routeParams,$http) 
 	cost: '300',
     id:16,
 	hours: ' 1 PM to 10:30 PM (Mon-Sun)',
-	image: 'http://jibekjolu.us/wp-content/uploads/tasty_food21.jpg'
+	image: 'http://i2.cdn.cnn.com/cnnnext/dam/assets/150203151301-chinese-food-lanzhou-hand-pulled-noodles-exlarge-169.jpg'
 },   {
 	name: 'KhokhAs',
 	address: 'SCO 11, Madhya Marg, Sector 26, Chandigarh',
@@ -479,7 +479,7 @@ foodieApp.controller('restaurantController',function($scope,$routeParams,$http) 
 	cost: '900',
     id:17,
 	hours: ' 11 AM to 10:30 PM (Mon-Sun)',
-	image: 'https://i.ytimg.com/vi/O2l6mWqPeKM/maxresdefault.jpg'
+	image: 'http://www.gfcookingclub.com/wp-content/uploads/2013/10/1-f2966272.jpg'
 },   {
 	name: 'Rustic Door',
 	address: 'SCO 10,Sector 10, Chandigarh',
@@ -490,7 +490,7 @@ foodieApp.controller('restaurantController',function($scope,$routeParams,$http) 
 	cost: '1500',
 	hours: ' 11:30 AM to 10:30 PM (Mon-Sun)',
     id:18,
-	image: 'https://media-cdn.tripadvisor.com/media/photo-s/03/d3/9d/09/wtf-what-tasty-food.jpg'
+	image: 'http://creamcentre.com/files/9713/6057/0350/paneer_ka_baap_cc.jpg'
 },   {
 	name: 'Fry High',
 	address: 'Sector 18, Chandigarh',
@@ -501,7 +501,7 @@ foodieApp.controller('restaurantController',function($scope,$routeParams,$http) 
 	cost: '1500',
     id:19,
 	hours: ' 11 AM to 11:30 PM (Mon-Sun)',
-	image: 'https://s-media-cache-ak0.pinimg.com/736x/58/55/b6/5855b65229a5dc4c36a2a063350d90f5--honey-food-recipes-food-and-drink-recipes.jpg'
+	image: 'http://www.vegrecipesofindia.com/wp-content/uploads/2015/02/veg-manchurian-dry-recipe-4.jpg'
 },   {
 	name: 'Castle Grill',
 	address: 'Sector 37, Chandigarh',
@@ -512,7 +512,7 @@ foodieApp.controller('restaurantController',function($scope,$routeParams,$http) 
 	cost: '900',
     id:20,
 	hours: ' 11 AM to 10:30 PM (Mon-Sun)',
-	image: 'https://s-media-cache-ak0.pinimg.com/originals/f9/2d/d3/f92dd3871ab7c1684c5597b35bd13109.jpg'
+	image: 'http://www.yummytummyaarthi.com/wp-content/uploads/2014/08/1-86.jpg'
 },   {
 	name: 'Dumpl Hood',
 	address: 'Sector 42, Chandigarh',
@@ -522,8 +522,7 @@ foodieApp.controller('restaurantController',function($scope,$routeParams,$http) 
 	cuisines: 'Pizza, Fast Food',
 	cost: '400',
     id:21,
-	hours: ' 11 AM to 10:30 PM (Mon-Sun)',
-	image: 'http://photo.elsoar.com/wp-content/images/Tasty-Fast-Food.-Reviews-11.jpg'
+	hours: 'http://www.aajkikhabar.com/en/wp-content/uploads/2017/05/Noodles2.jpg'
 },
   ]
 
