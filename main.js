@@ -1,4 +1,6 @@
+<!--------var declare kia------------------------>
 var foodieApp = angular.module('foodieApp',['ngRoute']);
+<!-----------------routes bnae so dat pta chl ske konsapage kase chale-------------------------->
 foodieApp.config(function ($routeProvider) {
 	$routeProvider
 	.when('/',{
@@ -22,8 +24,10 @@ foodieApp.config(function ($routeProvider) {
 		controller: 'restaurantController'
 	})
 })
+<!-----------main page k liye controller bnaya-------------------->
 
 foodieApp.controller('mainController',function($scope) {
+    <!-----------array of object bnaye restaurant k liye--------------------------->
 	$scope.restaurants = [{
 	name: 'BigWhich',
 	address: 'SCO 14, Backside, Madhya Marg, Sector 26, Chandigarh',
@@ -267,25 +271,28 @@ foodieApp.controller('mainController',function($scope) {
 
 ]
 })
+<!--------------------home page k liye controller bnaya------------------------------>
 foodieApp.controller('homeController',function($scope) {
 })
+<!--------------------front page k liye controller bnaya------------------------------>
 foodieApp.controller('frontController',function($scope,$location) {
     $scope.goToSignin = function() {
-		//console.log('Do Something')
+		<!---------signin k liye function  and uska location set ki sign in prr jane k liye---------------------->
 		$location.url('signin')
-//        console.log($location.url())
+
 	}
 })
+<!--------------------signin page k liye controller bnaya------------------------------>
 foodieApp.controller('signinController',function($scope,$location) {
 	$scope.goToHome = function() {
-		//console.log('Do Something')
+			<!---------home k liye function  and uska location set ki home page prr jane k liye---------------------->
 		$location.url('home')
 	}
 })
-
+<!--------------------restaurant page k liye controller bnaya------------------------------>
 
 foodieApp.controller('restaurantController',function($scope,$routeParams,$http) {
-
+<!--------------array of objects bnaye restaurant k------------------------>
 	$scope.restaurantId = $routeParams.id;
 	var restaurants = [{
 	name: 'BigWhich',

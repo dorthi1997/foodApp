@@ -1,42 +1,40 @@
 <div class="signin" ng-controller="signinController">
         <div id="login_el">
   <h2 class="log">login</h2>
-
-            
-<form name="loginForm">
+<form name="loginForm"><!---login form jha user apni details fill krega-------------->
     
 
 
-    <div class="form-group input">
+    <div class="form-group input"><!----user name k liye div------------>
         <label for="user-name"></label>
-        <input type="text" class="form-control" id="user-name" placeholder="USERNAME" name="name" ng-model="name" required="">
+        <input type="text" class="form-control" id="user-name" placeholder="USERNAME" name="name" ng-model="name" required=""><!------input field and required hh yeh btane k liye----------------->
        
     </div>
-   <div class="form-group input">
+   <div class="form-group input"><!----user e-mail k liye div------------>
         <label for="user-email"></label>
-        <input type="email" class="form-control" id="user-email" placeholder="E-MAIL" name="email" ng-model="user.email" required="">
-        <div ng-show="loginForm.email.$error.required" class="aaaa">Required!</div>
-        <div ng-show="loginForm.email.$error.email" class="aaaa">This doesn't look like a valid email</div>
+        <input type="email" class="form-control" id="user-email" placeholder="E-MAIL" name="email" ng-model="user.email" required=""><!------input field and required hh yeh btane k liye----------------->
+        <div ng-show="loginForm.email.$error.required" class="aaaa">Required!</div><!----errors show krne k liye------->
+        <div ng-show="loginForm.email.$error.email" class="aaaa">This doesn't look like a valid email</div><!----errors show krne k liye------->
     </div>
-    <div class="form-group input">
+    <div class="form-group input"><!----user password k liye div------------>
         <label for="user-password"></label>
-    <input type="password" class="form-control" id="user-password" placeholder="PASSWORD" name="password" required="" ng-model="user.password" ng-minlength="6" ng-maxlength="15">
-    <div ng-show="loginForm.password.$error.minlength" class="aaaa">
+    <input type="password" class="form-control" id="user-password" placeholder="PASSWORD" name="password" required="" ng-model="user.password" ng-minlength="6" ng-maxlength="15"><!------input field and required hh yeh btane k liye----------------->
+    <div ng-show="loginForm.password.$error.minlength" class="aaaa"><!----errors show krne k liye------->
     Password must be at least 6 characters long 
     </div>
-    <div ng-show="loginForm.password.$error.maxlength" class="aaaa">
+    <div ng-show="loginForm.password.$error.maxlength" class="aaaa"><!----errors show krne k liye------->
     Password must be at most 15 characters long 
     </div>
-    <div ng-show="loginForm.password.$error.required" class="aaaa">
+    <div ng-show="loginForm.password.$error.required" class="aaaa"><!----errors show krne k liye------->
     Please enter your super secret password 
     </div>
     </div>
     
     <input type="submit" value="Sign In" class="btn btn-default" ng-disabled="loginForm.$invalid" ng-click="goToHome()">
-
+<!-------------submit button---------------->
 </form>
 </div>
-    <div class="welcome_msg">Welcome Back,&nbsp;&nbsp;<br> {{name}}</div>
+    <div class="welcome_msg">Welcome Back,&nbsp;&nbsp;<br> {{name}}</div><!-------------user ka name show krne k liye---->
 <img src="img/0e96ad8aad7c86d1ba15107c357667b7.png" class="chat">
             <img src="img/white-round-md.png" class="fi">
             <img src="img/white-round-md.png" class="gi">

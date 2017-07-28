@@ -1,12 +1,13 @@
    <secion class="ord" ng-controller="mainController">
         <div class="ordero">
+            <!--------------header bnaya--------------->
             <div class="headerrr">
-                <div class="logo">
+                <div class="logo"><!------logo bnaya------------>
                         <h2 id="na">
-                            <a href="#">THE PRESIDENT</a>
+                            <a href="#">THE PRESIDENT</a><!------logo prr anchortag--------->
                         </h2>
                 </div>     
-                 <div class="shi">
+                 <div class="shi"><!-------navbar bnaya----------------->
                      <ul>
                          <li><a href="#!/home">Home</a></li>
                          <li><a href="#">Reservations</a></li>
@@ -17,13 +18,14 @@
                          <li><a href="#!/signin">LogOut</a></li>
                       </ul>
                   </div>
+                
               </div>
-                <section class="mn">
+                <section class="mn"><!-------design k liye semicircle------------>
                     <img src="img/semi-circle.png" class="gol">
                          <p class="perm">Order food online from the best restaurants near you
                          </p>
                  </section>
-        <section class="every">
+        <section class="every"><!-------jha prr sare restaurants show ho rahe hh------------------->
                <div ng-repeat="restaurant in restaurants | filter:query" class="restaurant">
                     <div class="rest-wrapper">
                         <div class="chng">
@@ -76,7 +78,7 @@
                 <div class="bestm"><p class="bestp">BayLeaf</p><br><p class="cost">₹1600</p></div><br>
                 <div class="bestm2"><p class="bestp">SamPizza</p><br><p class="cost">₹900</p></div>
             </div>
-           
+           <!-----------footer k liye code-------------->
             <section class="mn2">
                     <img src="img/semi-circle.png" class="gol2">
                         <p class="fs">HANDCRAFTED WITH &nbsp;<img src="img/clip-art-png-19.png" style="height:30px">&nbsp;BY DORTHI SHREE</p>
