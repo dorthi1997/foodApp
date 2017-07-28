@@ -552,17 +552,17 @@ foodieApp.controller('restaurantController',function($scope,$routeParams,$http) 
 					  			console.log(response);
                         var list = '';
                         var protien = ["eggs", "almonds", "oats", "cheese", "yogurt", "milk", "brocolli", "tuna", " quinoa", "Lean Beef",];
-                        var fats = ["Avocados", "Avocados", "Dark Chocolate", "Dark Chocolate", "Dark Chocolate", "Nuts", "Chia Seeds",];
-                        var Carbs = ["Oatmeal", "Yams", "Brown rice", "Brown rice", "Quinoa", "Quinoa", "Pumpkin", "Pumpkin"];
+                        var fat = ["Avocados", "Avocados", "Dark Chocolate", "Dark Chocolate", "Dark Chocolate", "Nuts", "Chia Seeds",];
+                        var carb = ["Oatmeal", "Yams", "Brown rice", "Brown rice", "Quinoa", "Quinoa", "Pumpkin", "Pumpkin"];
 						for (var i =0;i < ingredients.length;i++) {
            $scope.ingredients.push(ingredients[i].name);
 
 										}
 
-										for(var i=0;i< protein.length;i++){
+										for(var i=0;i< protien.length;i++){
 											// CHECK FOR THE PROTEIN ROR CARB OR FAT RICH FOOD
 											//console.log($scope.protein);
-     if ($scope.ingredients.indexOf(protein[i]) > -1) {
+     if ($scope.ingredients.indexOf(protien[i]) > -1) {
 												var info = "<p>Protien Rich</p>";
 												console.log("run");
 													$(".value2 .bestDish").append(info);
